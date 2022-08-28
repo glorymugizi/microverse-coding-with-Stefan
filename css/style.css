@@ -1,0 +1,24 @@
+#main-doc {
+  /* display: flex; */
+  /* min-height: 100vh;
+  width: 100%; */
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  margin: auto;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 2px solid red;
+  width: 80%;
+  height: auto;
+}
+.main-section {
+  box-sizing: border-box;
+  border: 2px solid blue;
+  width: 100%;
+}
