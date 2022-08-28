@@ -6,6 +6,7 @@
   /* align-items: center;
   justify-content: center; */
   margin: auto;
+  margin-top: 4rem;
 }
 div {
   display: flex;
@@ -16,9 +17,33 @@ div {
   border: 2px solid red;
   width: 80%;
   height: auto;
+  margin-left: 2rem;
 }
 .main-section {
   box-sizing: border-box;
   border: 2px solid blue;
   width: 100%;
+}
+#navbar {
+}
+#navbar ul li {
+  list-style: none;
+  font-size: 1.2rem;
+  /* margin: auto; */
+  box-sizing: border-box;
+  border-bottom: 1px solid #000000;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: #000000;
+  line-height: 3rem;
+}
+header {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-style: oblique;
+}
+code {
+  background-color: burlywood;
 }
